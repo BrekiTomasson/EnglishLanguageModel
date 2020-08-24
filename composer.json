@@ -1,0 +1,34 @@
+{
+    "name": "brekitomasson/english-language-model",
+    "description": "A model of the English Language, to be used in machine learning and Natural Language Processing.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "EnglishLanguageModel\\": "src"
+        },
+        "files": [
+            "src/Helpers/StringMethods.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "EnglishLanguageModelTest\\":  "test"
+        },
+        "files": [
+            "src/Helpers/StringMethods.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Breki Tomasson",
+            "email": "breki.tomasson@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.2"
+    }
+}
